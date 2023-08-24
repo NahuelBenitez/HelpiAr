@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className="bg-pink-200">
+    <section className="bg-pink-100 mt-16">
     <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
         <div className="lg:col-span-2 lg:py-12">
@@ -59,7 +59,7 @@ function Contact() {
             <div className="mt-4">
               <button
                 type="submit"
-                className="inline-block w-full rounded-lg bg-red-500 hover:bg-red-600 px-5 py-3 font-medium text-white sm:w-auto"
+                className="inline-block w-full rounded-lg bg-sky-500 hover:bg-sky-700 px-5 py-3 font-medium text-white sm:w-auto"
               >
                 Send Message
               </button>
